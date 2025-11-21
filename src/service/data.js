@@ -1,11 +1,11 @@
-// src/data.js
+
 const products = [
   {
     id: '1',
     name: 'Peluche Oso Panda',
     description: 'Un adorable oso panda de peluche, suave y abrazable.',
     price: 15.99,
-    image: 'https://via.placeholder.com/300x200/87CEEB/FFFFFF?text=Panda+Peluche',
+    image: '/panda-peluche.jpg',
     category: 'peluches',
     stock: 20
   },
@@ -14,7 +14,7 @@ const products = [
     name: 'Coche de Juguete Deportivo',
     description: 'Coche deportivo de juguete con luces y sonido.',
     price: 25.50,
-    image: 'https://via.placeholder.com/300x200/FFD700/000000?text=Coche+Deportivo',
+    image: '/coche-deportivo.jpg', 
     category: 'accion',
     stock: 15
   },
@@ -23,7 +23,7 @@ const products = [
     name: 'Rompecabezas de Madera 100 Piezas',
     description: 'Rompecabezas de madera con temática de animales.',
     price: 12.75,
-    image: 'https://via.placeholder.com/300x200/90EE90/000000?text=Rompecabezas',
+    image: '/rompecabezas.jpg', 
     category: 'educativos',
     stock: 10
   },
@@ -32,7 +32,7 @@ const products = [
     name: 'Muñeca Bebé Interactiva',
     description: 'Muñeca bebé que llora, ríe y se mueve.',
     price: 35.00,
-    image: 'https://via.placeholder.com/300x200/FFA07A/FFFFFF?text=Mu%C3%B1eca+Beb%C3%A9',
+    image: '/muneca-bebe.jpg', 
     category: 'peluches',
     stock: 8
   },
@@ -41,7 +41,7 @@ const products = [
     name: 'Set de Construcción LEGO',
     description: 'Set de construcción LEGO con 200 piezas.',
     price: 29.99,
-    image: 'https://via.placeholder.com/300x200/808080/FFFFFF?text=LEGO+Set',
+    image: '/lego-set.jpg',
     category: 'educativos',
     stock: 12
   },
@@ -50,7 +50,7 @@ const products = [
     name: 'Figuras de Acción Superhéroes',
     description: 'Set de 4 figuras de acción de superhéroes.',
     price: 20.00,
-    image: 'https://via.placeholder.com/300x200/4682B4/FFFFFF?text=Superh%C3%A9roes',
+    image: '/superheroes.jpg', 
     category: 'accion',
     stock: 18
   },
@@ -59,7 +59,7 @@ const products = [
     name: 'Juego de Mesa Monopolio',
     description: 'El clásico juego de mesa Monopolio.',
     price: 32.50,
-    image: 'https://via.placeholder.com/300x200/CD5C5C/FFFFFF?text=Monopolio',
+    image: '/monopolio.jpg', 
     category: 'educativos',
     stock: 5
   },
@@ -68,7 +68,7 @@ const products = [
     name: 'Kit de Pintura para Niños',
     description: 'Kit de pintura con pinceles, pinturas y lienzo.',
     price: 18.75,
-    image: 'https://via.placeholder.com/300x200/F0E68C/000000?text=Kit+de+Pintura',
+    image: '/kit-pintura.jpg', 
     category: 'educativos',
     stock: 22
   },
@@ -77,7 +77,7 @@ const products = [
     name: 'Drone para Principiantes',
     description: 'Drone fácil de controlar para principiantes.',
     price: 45.00,
-    image: 'https://via.placeholder.com/300x200/ADD8E6/000000?text=Drone',
+    image: '/drone.jpg', 
     category: 'accion',
     stock: 7
   },
@@ -86,7 +86,7 @@ const products = [
     name: 'Juguete Musical Xilófono',
     description: 'Xilófono de juguete con colores vibrantes.',
     price: 10.00,
-    image: 'https://via.placeholder.com/300x200/DA70D6/FFFFFF?text=Xil%C3%B3fono',
+    image: '/xilofono.jpg', 
     category: 'educativos',
     stock: 14
   }
